@@ -1,0 +1,20 @@
+{
+  "name": "@roamingalien/components",
+  "version": "0.0.0",
+  "description": "aliens roaming the web",
+  "main": "dist/index.js",
+  "dependencies": {
+    "react": "^16.8.2",
+    "react-native": "0.59.0-rc.1",
+    "react-native-typescript-transformer": "^1.2.11",
+    "typescript": "^3.3.3"
+  },
+  "devDependencies": {
+    "rimraf": "^2.6.3"
+  },
+  "scripts": {
+    "build": "rimraf dist && tsc"
+  },
+  "author": "Matheus Paranhos",
+  "license": "ISC"
+}
